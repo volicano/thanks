@@ -1,0 +1,15 @@
+错误sql语句：
+select * from tb_type order by id desc
+客户IP:127.0.0.1
+时间 :2010-11-25 22:53:42
+
+错误sql语句：
+select * from web_type order by Id desc
+客户IP:127.0.0.1
+时间 :2010-11-25 22:54:11
+
+错误sql语句：
+select * from web_type order by Id desc
+客户IP:127.0.0.1
+时间 :2010-11-25 22:54:12
+

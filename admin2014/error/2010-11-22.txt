@@ -1,0 +1,9 @@
+错误sql语句：
+insert into web_aboutus values('ggggggggg','<p>gggggggggggggggggggggggggggggggg</p>
+<p>ggggggggggggggggggggggggggggggggggg</p>
+<p>dddddddddddddddddddddddddd</p>
+<p>cccccccccccccccccccccccccccccccccccccc</p>
+<p>sssssssssssssssssssss</p>','1290436310')
+客户IP:127.0.0.1
+时间 :2010-11-22 14:31:50
+
