@@ -2,7 +2,7 @@
 include_once('include.php');//包含Smarty配置文件
 require_once("config/deco.php"); //引入类文件
 $title = "我的网站名称";
-$sql=$db->query("select * from web_aboutus where 1=1",$conn);
+$sql=$db->query("select * from about where 1=1");
 //$info=$db->fetch_array($sql);
 if($sql){
 	$i=0;
@@ -13,11 +13,11 @@ if($sql){
 }
 
 
-$sql1=$db->query("SELECT * FROM `web_server` WHERE 1 order by id asc LIMIT 0 , 3 ",$conn);
+$sql1=$db->query("SELECT * FROM `server` WHERE 1 order by id asc LIMIT 0 , 3 ");
 //$info=$db->fetch_array($sql);
 if($sql1){
 	$j=0;
-	while($arr1=$db->fetch_array($sq1l)){
+	while($arr1=$db->fetch_array(@$sql1)){
 		$info1[$j]=$arr1;
 		$j++;
 	}

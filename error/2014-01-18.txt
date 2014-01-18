@@ -73,3 +73,23 @@ SELECT * FROM `web_server` WHERE 1 order by id asc LIMIT 0 , 3
 客户IP:127.0.0.1
 时间 :2014-01-18 06:22:40
 
+错误sql语句：
+select * from web_aboutus where 1=1
+客户IP:127.0.0.1
+时间 :2014-01-18 20:58:46
+
+错误sql语句：
+SELECT * FROM `web_server` WHERE 1 order by id asc LIMIT 0 , 3 
+客户IP:127.0.0.1
+时间 :2014-01-18 20:58:46
+
+错误sql语句：
+select * from web_aboutus where 1=1
+客户IP:127.0.0.1
+时间 :2014-01-18 20:59:29
+
+错误sql语句：
+SELECT * FROM `web_server` WHERE 1 order by id asc LIMIT 0 , 3 
+客户IP:127.0.0.1
+时间 :2014-01-18 20:59:29
+

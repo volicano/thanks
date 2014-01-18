@@ -1,7 +1,7 @@
 <?php
 /*调用实例*/
 require_once("db_class.php"); //引入数据库类文件
-
+ini_set('date.timezone','Asia/Shanghai');
 
 /*实例化类：*/
 $db=new mysql("localhost","root","","thanks","conn","utf8");
